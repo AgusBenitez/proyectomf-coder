@@ -1,0 +1,78 @@
+$border-radius: 2rem;
+
+/************SECCIONES DEFAULT****************/
+.seccion__contenido {
+    height: 100vh;
+    border-radius: $border-radius;
+}
+
+.seccion__contenido__imagen {
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    border-radius: $border-radius;
+}
+
+
+/**************SECCION PROMO*****************/
+.promo {
+    height: 100vh;  
+    border-radius: $border-radius;
+}
+
+.promo__anuncio {
+    background-image: linear-gradient(to right, #5FA8D3, white);
+    border-radius: $border-radius; 
+    animation-name: latido;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+
+}
+
+/*************SECCION OPINIONES*************/
+
+.opiniones__container {
+        border-radius: $border-radius;
+        height: 100vh;
+
+        .opiniones__container__card {
+            border-radius: $border-radius;
+            height: 210px;           
+            padding: 5px; 
+        }
+            .opiniones__container__card__body {
+                color: white;
+                text-align: center;
+                font-style: italic;
+                padding: 5px;                          
+            }
+}
+
+/******************FOOTER*****************/
+.footer {
+    height: 240px;
+    .footer__list {
+        list-style: none;
+        padding-left: 0;
+    }
+        .footer__list__redes {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            text-align: left;
+            padding-left: 0;
+        }
+            .footer__list__links {
+                color: white;
+                text-decoration: none;
+            }
+            
+}
+
+.footer__text {
+    font-size: x-small;
+    text-align: center;
+}

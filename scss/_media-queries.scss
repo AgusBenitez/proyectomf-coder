@@ -1,0 +1,77 @@
+/**************HEADER*****************/
+
+@media screen and (min-width: 992px) {
+
+    .header__title {
+        font-weight: 600;
+    }
+
+    .header__nav__list__item {
+        position: relative;              
+    }
+
+    .header__nav__list__item__link::before {
+        content: '';
+        display: block;
+        width: 0%;
+        height: 5px;
+        background-color: white;   
+        position: absolute;
+        top: 0; 
+        transition: all ease-in-out 300ms;
+    }
+
+    .header__nav__list__item__link:hover::before {
+        width: 80%;
+    }
+}
+
+
+
+/**************SECCIONES*************/
+
+@media only screen and (min-width: 992px) {
+
+    /************MODIFICADORES SECCIONES DEFAULT*************/
+
+    .seccion__contenido {                                                                           
+        height: 450px;
+        background-image: linear-gradient(to right, #083D77, white);
+        border-radius: 0;
+    }
+
+    .bg-reverse {
+        background-image: linear-gradient(to left, #083D77, white);
+    }
+
+    #reverse {
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 54%, 0% 0%);
+        margin-left: 0;
+    }
+
+    .seccion__contenido__imagen {       
+        height: 100%;
+        margin: auto 0 auto 0;
+        border-radius: 0;
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+
+    }  
+    
+    /*************MODIFICADORES SECCION PROMO*****************/
+    .promo {
+        height: 400px;
+        border-radius: 0;
+    }
+
+    /*************MODIFICADORES SECCION OPINIONES*****************/
+    .opiniones__container {
+        height: 800px;
+        border-radius: 0;
+    }
+
+    /*************MODIFICADORES BANNER PARTICLES*****************/
+
+    .particles-js__card__title {
+        font-size: 4rem!important;
+    }
+}
