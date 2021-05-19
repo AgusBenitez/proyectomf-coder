@@ -30,18 +30,42 @@
 
 /**************SECCIONES*************/
 
+@media only screen and (min-width: 576px) {
+
+    .carousel-md-desk {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .carousel-md-desk {
+        height: 200px;
+    }
+}
+
+
 @media only screen and (min-width: 992px) {
 
     /************MODIFICADORES SECCIONES DEFAULT*************/
 
-    .seccion__contenido {                                                                           
-        height: 450px;
-        background-image: linear-gradient(to right, #083D77, white);
+    .radius-default {
         border-radius: 0;
     }
 
+    .seccion-default {
+        border-radius: 0;
+    }
+
+    .seccion__contenido {                                                                           
+        height: 450px;
+        background-image: linear-gradient(to right, #00162e, #0362c7);
+        border-radius: 0;
+        padding: 0;
+    }
+
     .bg-reverse {
-        background-image: linear-gradient(to left, #083D77, white);
+        background-image: linear-gradient(to left, #00162e, #0362c7);
     }
 
     #reverse {
@@ -59,13 +83,16 @@
     
     /*************MODIFICADORES SECCION PROMO*****************/
     .promo {
-        height: 400px;
         border-radius: 0;
+    }
+
+    .promo__anuncio {
+        margin-top: 0;
+    
     }
 
     /*************MODIFICADORES SECCION OPINIONES*****************/
     .opiniones__container {
-        height: 800px;
         border-radius: 0;
     }
 
@@ -73,5 +100,11 @@
 
     .particles-js__card__title {
         font-size: 4rem!important;
+    }
+
+    /*************MODIFICADORES CAROUSEL NOSOTROS*****************/
+
+    .carousel-desk {
+        height: 200px;
     }
 }

@@ -1,15 +1,15 @@
 .bg-oscuro {
-    background-color: #083D77!important;
+    background-color: #00162e!important;
 }
 
 .bg-claro {
-    background-color: #5FA8D3!important;
+    background-color: #083D77!important;
 }
 
 .bg-default {
-    background-image: linear-gradient(to bottom,#083D77,white);
+    background-image: linear-gradient(to bottom,#00162e,#083D77);
 }
 
-.bg-oscuro--degrade {
-    background-image: linear-gradient(to bottom,#083D77,white);
+.bg-boton {
+    background-color: whitesmoke!important;
 }

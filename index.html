@@ -29,7 +29,7 @@
 
 <body>
   <!-------------HEADER-------------->
-  <header class="bg-oscuro">
+  <header class="bg-oscuro header__sticky">
     <nav class="navbar navbar-expand-lg navbar-dark container">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">HB Automatización</a>
@@ -69,25 +69,28 @@
         empresa.
         ¡Muchas gracias por visitarnos!
       </p>
-      <a href="#main-info"><button type="button" class="btn text-light bg-oscuro">Conocenos</button></a>
+      <a href="#main-info"><button type="button" class="btn bg-boton">Conocenos</button></a>
     </div>
   </section>
 
   <!---------------CONTENIDO-SECCION1---------------->
 
   <section class="container mb-4" id="main-info">
-    <div class="seccion__contenido d-flex flex-row flex-wrap justify-content-between bg-default border border-4">
+    <div
+      class="seccion__contenido d-flex flex-column flex-lg-row align-items-center flex-wrap justify-content-lg-between bg-default border border-4">
       <div class="d-flex flex-column justify-content-center align-items-center col-lg-5">
         <p class="col-10 text-center text-light">Ofrecemos un servicio de excelencia, con el profesionalismo y el
           enfoque necesario
           para solucionar la problemática existente desde el momento cero.
-          Acompañamos a nuestros clientes desde la concepción de la idea, desarrollo del anteproyecto, analisis de
+          Acompañamos a nuestros clientes desde la concepción de la idea, desarrollo del anteproyecto, análisis de
           costos, montaje, y puesta en marcha.
         </p>
-        <button type="button" class="col-6 btn text-light bg-oscuro">Conocé más</button>
+        <a href="servicios.html">
+          <button type="button" class="btn text-light bg-claro">Conocé más</button>
+        </a>
       </div>
-      <img data-aos="fade-up" class="seccion__contenido__imagen col-lg-5" src="media/img/imagenHome1.jpg"
-        alt="imagen corporativa">
+      <img data-aos="fade-up" class="seccion__contenido__imagen col-10 col-md-7 col-lg-5"
+        src="media/img/imagenHome1.jpg" alt="imagen corporativa">
     </div>
   </section>
 
@@ -95,17 +98,19 @@
 
   <section class="container mb-4">
     <div
-      class="seccion__contenido d-flex flex-row flex-lg-row-reverse flex-wrap justify-content-between bg-default bg-reverse border border-4">
+      class="seccion__contenido d-flex flex-column align-items-center flex-lg-row-reverse flex-wrap justify-content-lg-between bg-default bg-reverse border border-4">
       <div class="d-flex flex-column justify-content-center align-items-center col-lg-5">
-        <p data-aos="fade-up" class="col-10 text-center text-light">Trabajamos con los mas altos estándares del calidad,
+        <p data-aos="fade-up" class="col-10 text-center text-light">Trabajamos con los mas altos estándares de calidad,
           seguridad
-          e higiene. Cientos de trabajos concretados y clientes satisfechos nos respaldan y recomiendan. Si buscas
-          asesoramiento o queres saber mas acerca de nuestros servicios, no dudes en contactarnos.
+          e higiene. Cientos de trabajos concretados y clientes satisfechos nos respaldan y recomiendan. Si buscás
+          asesoramiento o querés saber más acerca de nuestros servicios, no dudes en contactarnos.
         </p>
-        <button type="button" class="col-6 btn text-light bg-oscuro">Contacto</button>
+        <a href="contacto.html">
+          <button type="button" class="btn text-light bg-claro">Contacto</button>
+        </a>
       </div>
-      <img data-aos="fade-up" class="seccion__contenido__imagen col-lg-5" id="reverse" src="media/img/imagenHome2.jpg"
-        alt="imagen de un tablero">
+      <img data-aos="fade-up" class="seccion__contenido__imagen col-10 col-md-7 col-lg-5" id="reverse"
+        src="media/img/imagenHome2.jpg" alt="imagen de un tablero">
     </div>
   </section>
 
@@ -121,7 +126,7 @@
         <button type="button" class="btn bg-claro text-light">Cursos</button>
       </div>
       <div data-aos="fade-up"
-        class="d-flex flex-row justify-content-evenly align-self-center col-10 promo__anuncio col-lg-4 shadow-lg">
+        class="d-flex flex-row justify-content-evenly align-self-center col-10 col-md-6 promo__anuncio text-light col-lg-4 shadow-lg">
         <h3 class="col-4 fs-1">¡50% OFF HASTA JULIO!</h3>
         <a class="col-4 align-self-center" href="#"><img class="col-12 promo__anuncio__imagen"
             src="media/img/sale-svg.svg" alt="imagen que indica oferta"></a>
@@ -134,9 +139,10 @@
   <section class="container mb-4">
     <div
       class="opiniones__container d-flex flex-column flex-lg-row flex-wrap align-items-center justify-content-around bg-default border border-4">
-      <h2 data-aos="fade-up" class="container col-10 text-center text-light">Algunas opiniones...</h2>
+      <h2 data-aos="fade-up" class="container col-10 text-center text-light mt-4 mb-4">Algunas opiniones...</h2>
 
-      <div data-aos="flip-up" class="d-flex flex-column col-11 col-lg-5 opiniones__container__card bg-oscuro shadow-lg">
+      <div data-aos="flip-up"
+        class="d-flex flex-column col-11 col-md-8 col-lg-5 opiniones__container__card bg-claro shadow-lg">
         <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center">
           <img class="col-2 rounded-circle border border-3" src="media/img/man1.jpg" alt="">
           <h3 class="fs-5 text-light">Diego:</h3>
@@ -145,7 +151,8 @@
           Estamos muy satisfechos con el trabajo realizado."</p>
       </div>
 
-      <div data-aos="flip-up" class="d-flex flex-column col-11 col-lg-5 opiniones__container__card bg-oscuro shadow-lg">
+      <div data-aos="flip-up"
+        class="d-flex flex-column col-11 col-md-8 col-lg-5 opiniones__container__card bg-claro shadow-lg">
         <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center">
           <img class="col-2 rounded-circle border border-3" src="media/img/man2.jpg" alt="">
           <h3 class="fs-5 text-light">Rodrigo:</h3>
@@ -155,7 +162,8 @@
           de su personal desde el primer momento."</p>
       </div>
 
-      <div data-aos="flip-up" class="d-flex flex-column col-11 col-lg-5 opiniones__container__card bg-oscuro shadow-lg">
+      <div data-aos="flip-up"
+        class="d-flex flex-column col-11 col-md-8 col-lg-5 opiniones__container__card bg-claro shadow-lg">
         <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center">
           <img class="col-2 rounded-circle border border-3" src="media/img/man3.jpg" alt="">
           <h3 class="fs-5 text-light">Mario:</h3>
@@ -169,14 +177,14 @@
 
   <!----------------NEWSLETTER---------------------->
 
-  <section class="bg-oscuro--degrade p-5">
-    <div class="text-center container d-flex flex-column align-items-center">
+  <section class="bg-default p-5">
+    <div class="text-center text-light container d-flex flex-column align-items-center">
       <h3 class="text-light">Suscribite</h3>
       <p>Dejanos tu mail para que puedas estar al tanto de cualquier novedad</p>
       <div class="col-lg-6">
         <label for="formGroupExampleInput" class="form-label">¡Adelante!</label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ejemplo@mail.com">
-        <button type="button" class="btn btn-light bg-oscuro text-light">Enviar</button>
+        <button type="button" class="btn bg-boton mt-3">Enviar</button>
       </div>
     </div>
   </section>
