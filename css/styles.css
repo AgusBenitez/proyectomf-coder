@@ -68,6 +68,11 @@
     font-style: italic;
     padding: 5px; }
 
+/************GALERIA***************/
+.galeria__img {
+  height: 200px;
+  border-radius: 2rem; }
+
 /******************FOOTER*****************/
 .footer {
   height: 240px; }

@@ -67,6 +67,13 @@ $border-radius: 2rem;
             }
 }
 
+/************GALERIA***************/
+
+.galeria__img {
+    height: 200px;
+    border-radius: $border-radius;
+}
+
 /******************FOOTER*****************/
 .footer {
     height: 240px;
