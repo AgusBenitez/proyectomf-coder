@@ -107,4 +107,15 @@
     .carousel-desk {
         height: 200px;
     }
+
+    /*************MODIFICADORES IMAGENES*****************/
+
+    .galeria__img {
+        height: 300px;
+    }
+
+    .galeria__img:hover {
+        transform: scale(1.1);
+        transition: ease-in-out 150ms 0s;
+    }
 }
