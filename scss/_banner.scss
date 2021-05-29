@@ -1,0 +1,36 @@
+#particles-js {
+    height: 95vh;
+    width: 100%;
+    /*background-image: linear-gradient(to bottom,#083D77,white);*/
+    background-image: url("prueba.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .particles-js__card {
+        position: absolute;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+    }
+
+        .particles-js__card__title {                
+            color: white;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 900;
+            font-size: 2.5rem;
+            font-style: italic;
+        }
+
+            .particles-js__card__text {
+                color: white;
+                text-align: center;
+            }
+            
+}

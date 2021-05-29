@@ -18,6 +18,35 @@ body {
 .bg-boton {
   background-color: whitesmoke !important; }
 
+#particles-js {
+  height: 95vh;
+  width: 100%;
+  /*background-image: linear-gradient(to bottom,#083D77,white);*/
+  background-image: url("prueba.jpg");
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  #particles-js .particles-js__card {
+    position: absolute;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 50%; }
+  #particles-js .particles-js__card__title {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-style: italic; }
+  #particles-js .particles-js__card__text {
+    color: white;
+    text-align: center; }
+
 .seccion-default {
   padding: 4em 0 4em 0;
   border-radius: 2rem; }
@@ -104,42 +133,6 @@ body {
     transform: scale(1); }
   100% {
     transform: scale(1.1); } }
-
-.background {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0; }
-
-#particles-js {
-  height: 95vh;
-  width: 100%;
-  /*background-image: linear-gradient(to bottom,#083D77,white);*/
-  background-image: url("prueba.jpg");
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-  #particles-js .particles-js__card {
-    position: absolute;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    height: 50%; }
-  #particles-js .particles-js__card__title {
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 900;
-    font-size: 2.5rem;
-    font-style: italic; }
-  #particles-js .particles-js__card__text {
-    color: white;
-    text-align: center; }
 
 /**************HEADER*****************/
 @media screen and (min-width: 992px) {
