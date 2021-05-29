@@ -6,7 +6,7 @@ $border-radius: 2rem;
 }
 
 .radius-default {
-    border-radius: $border-radius;
+    border-radius: $border-radius!important;
 }
 
 /*************HEADER**************************/
